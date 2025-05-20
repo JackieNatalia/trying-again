@@ -1,0 +1,39 @@
+.everything {
+    display: flex;
+    background-color: pink;
+}
+.dashboard {
+    display: grid;
+    background-color: lightblue;
+    width: 200px;
+    margin-left: 15px;
+}
+.dashboard .dashboard-elements button{
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.grid-container {
+    justify-content: end;
+    background-color: beige;
+    width: 100%;
+}
+.grid-container h3{
+    text-align: center;
+    
+}
+.gridcontainer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 300px);
+    padding: 15px;
+    justify-content: end;
+    background-color: lightgra
+}
+.container-elements {
+    background-color: lightgreen;
+    border: 3px solid green;
+    padding: 10px;
+    justify-content: end;
+}

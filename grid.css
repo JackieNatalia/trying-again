@@ -1,0 +1,21 @@
+.everything{
+    display: grid;
+}
+.dashboard {
+    
+}
+.gridcontainer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3 , 300px);
+    grid-template-rows: repeat(2, 300px);
+    border: 6px solid blue;
+    background-color: lightblue;
+    padding: 15px;
+    justify-content: end;
+}
+.container-elements {
+    background-color: lightgreen;
+    border: 3px solid green;
+    padding: 10px;
+}
